@@ -1,18 +1,18 @@
 "# Generative_Adversarial_Network_Fake_Celebrity_Faces"
 
-#GAN 
+# GAN 
 
-
+## Introduction
 Generative Adversarial Network is one of the most interesting ideas in the last 10 years as stated by Yann LeCun, V.P & chief AI scientist at Facebook. It is one of the unconventional networks as instead of analyzing data and making predictions it’s one of those networks that generates data. GANs basically have the capability to create images that look like the photograph of human faces. Interestingly the faces generated do not belong to any real person. Though seemingly complex GANs are built on the basic concepts of the neural network.
 
 
-Theory 
+## Theory 
 
 
 Generating new data is basically a game of probability and generating faces can be expresses as a random variable generation problem. In GANs we basically take an N dimensional vector space and generate a new celebrity face by generating a new vector following the celebrity face probability distribution. This process is kind of a mapping done from N dimensional vector space to the celebrity faces that we have in our dataset. This step is exactly the opposite step to that of the feature embedding process used in face recognition where we map a face to a N dimensional feature vector. 
 
 
-Architecture and Working
+## Architecture and Working
 
 
 A Generative Adversarial Network basically consists of two components which are basically two Neural Networks namely Generator and Discriminator. The function of the generator is to map the N dimensional feature vector to celebrity faces in our dataset and generate faces based on the probability distribution of the of the images in our dataset. Similarly, the function of the discriminator is to discriminate between the generated faces and the real faces in the dataset
