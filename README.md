@@ -1,6 +1,6 @@
 "# Generative_Adversarial_Network_Fake_Celebrity_Faces"
 
-GAN 
+#GAN 
 
 
 Generative Adversarial Network is one of the most interesting ideas in the last 10 years as stated by Yann LeCun, V.P & chief AI scientist at Facebook. It is one of the unconventional networks as instead of analyzing data and making predictions it’s one of those networks that generates data. GANs basically have the capability to create images that look like the photograph of human faces. Interestingly the faces generated do not belong to any real person. Though seemingly complex GANs are built on the basic concepts of the neural network.
